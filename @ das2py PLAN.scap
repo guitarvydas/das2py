@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="A4E9373F-F5EE-4A24-9174-B696BEFC0356">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="218.0,172.0" Width="195.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.894547 0.707772 0.715904</Border>
+                <Fill>0.993942 0.786413 0.795449</Fill>
+            </Appearance>
+            <String>pl to return senders and receivers</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="190.0,227.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.669404 0.885265 0.567007</Border>
+                <Fill>0.743783 0.983628 0.630008</Fill>
+            </Appearance>
+            <String>mpos.py matchSender returns True if any of senders matches target</String>
+            <ConnectedNoteIDs>2, 8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="453.0,246.0" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.669404 0.885265 0.567007</Border>
+                <Fill>0.743783 0.983628 0.630008</Fill>
+            </Appearance>
+            <String>sample.json</String>
+            <ConnectedNoteIDs>1, 3, 6, 10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="566.0,248.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.894547 0.707772 0.715904</Border>
+                <Fill>0.989115 0.814114 0.999483</Fill>
+            </Appearance>
+            <String>out.json</String>
+            <ConnectedNoteIDs>0, 2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="288.0,324.0" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.669404 0.885265 0.567007</Border>
+                <Fill>0.743783 0.983628 0.630008</Fill>
+            </Appearance>
+            <String>emit.py</String>
+            <ConnectedNoteIDs>2, 9-10</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="20.0,241.0" Width="144.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.669404 0.885265 0.567007</Border>
+                <Fill>0.743783 0.983628 0.630008</Fill>
+            </Appearance>
+            <String>mpos Connector rewrite</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="113.0,360.0" Width="221.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.669404 0.885265 0.567007</Border>
+                <Fill>0.743783 0.983628 0.630008</Fill>
+            </Appearance>
+            <String>every sender/receiver is {c:”x”,p:”y”}</String>
+            <ConnectedNoteIDs>6</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="436.075378,322.422424" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.669404 0.885265 0.567007</Border>
+                <Fill>0.743783 0.983628 0.630008</Fill>
+            </Appearance>
+            <String>run top.py</String>
+            <ConnectedNoteIDs>2, 6</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>0, 2-3, 6, 8, 10</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="09F894B5-449E-432E-9B2E-AF7E010FDC8B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+            <FillColor>0.743291 0.900319 0.994547</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="1E1F3B86-3C2B-472A-AB4D-A6990750E4EC" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+            <FillColor>0.743783 0.983628 0.630008</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="B287B7CB-BA4C-497F-9CCA-C2FB42EE924E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+            <FillColor>0.989115 0.814114 0.999483</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="EDF0920B-3ED3-4087-AF96-FAFDCDF7250F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+            <FillColor>0.993942 0.786413 0.795449</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="444391AC-F37B-4FF5-B756-25D2859B6945" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+            <FillColor>0.975275 0.920321 0.624585</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="1BA87B62-D8D0-43AC-B821-7C800C3E9231" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985954 0.0 0.02694</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="7C8DB18C-CFC7-4E19-B30E-9B5536756964" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <NoteXPadding>8.0</NoteXPadding>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
